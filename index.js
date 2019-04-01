@@ -1,11 +1,5 @@
 const XeroClient = require('xero-node').AccountingAPIClient;
 
-const config =  {
-  "appType" : "private",
-  "consumerKey": "4NJOXVJORY90ATTTEWQ8KNJETGZ6EO",
-  "consumerSecret": "CSXUR7VBMKSA97HQA4UWBRQ96092R3",
-  "privateKeyPath": "../privatekey.pem"
-};
 
 (async function(){
   let xero = new XeroClient(config);
