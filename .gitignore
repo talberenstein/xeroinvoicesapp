@@ -1,5 +1,6 @@
 #files
 index_copy.js
+package-lock.json
 # Logs
 logs
 *.log
